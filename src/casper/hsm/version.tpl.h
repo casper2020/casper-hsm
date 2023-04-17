@@ -23,16 +23,40 @@
 #ifndef CASPER_HSM_VERSION_H_
 #define CASPER_HSM_VERSION_H_
 
-#ifndef CASPER_HSM_LIB_NAME
-#define CASPER_HSM_LIB_NAME "hsm"
+#ifndef CASPER_HSM_ABBR
+#define CASPER_HSM_ABBR "chsm"
 #endif
 
-#ifndef CASPER_HSM_LIB_VERSION
-#define CASPER_HSM_LIB_VERSION "@VERSION@"
+#ifndef CASPER_HSM_NAME
+#define CASPER_HSM_NAME "casper-hsm"
 #endif
 
-#ifndef CASPER_HSM_LIB_INFO
-#define CASPER_HSM_LIB_INFO CASPER_HSM_LIB_NAME " v" CASPER_HSM_LIB_VERSION
+#ifndef CASPER_HSM_VERSION
+#define CASPER_HSM_VERSION "x.x.x"
+#endif
+
+#ifndef CASPER_HSM_REL_NAME
+#define CASPER_HSM_REL_NAME "n.n.n"
+#endif
+
+#ifndef CASPER_HSM_REL_DATE
+#define CASPER_HSM_REL_DATE "r.r.d"
+#endif
+
+#ifndef CASPER_HSM_REL_BRANCH
+#define CASPER_HSM_REL_BRANCH "r.r.b"
+#endif
+
+#ifndef CASPER_HSM_REL_HASH
+#define CASPER_HSM_REL_HASH "r.r.h"
+#endif
+
+#ifndef CASPER_HSM_REL_TARGET
+#define CASPER_HSM_REL_TARGET "r.r.t"
+#endif
+
+#ifndef CASPER_HSM_INFO
+#define CASPER_HSM_INFO CASPER_HSM_NAME " v" CASPER_HSM_VERSION
 #endif
 
 #endif // CASPER_HSM_VERSION_H_

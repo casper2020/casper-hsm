@@ -2,4 +2,4 @@
 *.o*
 
 #################
-src/version.h
+src/casper/hsm/version.h
