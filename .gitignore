@@ -3,3 +3,5 @@
 
 #################
 src/casper/hsm/version.h
+src/ngx/casper/broker/hsm/module/version.h
+src/ngx/casper/broker/hsm/module/config
